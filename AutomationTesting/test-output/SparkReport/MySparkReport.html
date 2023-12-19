@@ -1,0 +1,1657 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 20, 2023 06:35:53 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@MyInfo</a><a class="dropdown-item" href="#">@LEAVE01</a><a class="dropdown-item" href="#">@MYINFO01</a><a class="dropdown-item" href="#">@Login</a><a class="dropdown-item" href="#">@LOGIN04</a><a class="dropdown-item" href="#">@PIM01</a><a class="dropdown-item" href="#">@LOGIN03</a><a class="dropdown-item" href="#">@LEAVE03</a><a class="dropdown-item" href="#">@PIM</a><a class="dropdown-item" href="#">@Leave</a><a class="dropdown-item" href="#">@MYINFO02</a><a class="dropdown-item" href="#">@LOGIN02</a><a class="dropdown-item" href="#">@PIM02</a><a class="dropdown-item" href="#">@LEAVE02</a><a class="dropdown-item" href="#">@LOGIN01</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login</p>
+            <p class="text-sm">
+              <span>6:35:53 AM</span> / <span>00:00:34:444</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>12.20.2023 6:35:53 AM</span>
+<span class='badge badge-danger'>12.20.2023 6:36:28 AM</span>
+<span class='badge badge-default'>00:00:34:444</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Ensure the error message is displayed when username and password invalid</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.navigateToTheWebsite()">
+                <span>Given Navigate to the website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.inputUsernameFieldWithInvalidUsername()">
+                <span>When Input username field with invalid username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.inputPasswordFieldWithInvalidPassword()">
+                <span>And Input password field with invalid password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.clickTheLoginButton()">
+                <span>And Click the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.errorMessageIsDisplayedForInvalidState()">
+                <span>Then Error message is displayed for invalid state</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Ensure the error message is displayed when username and password empty</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.navigateToTheWebsite()">
+                <span>Given Navigate to the website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.clickTheLoginButton()">
+                <span>When Click the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.errorMessageIsDisplayedForEmptyState()">
+                <span>Then Error message is displayed for empty state</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Successfully logged in using valid account</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.navigateToTheWebsite()">
+                <span>Given Navigate to the website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.inputUsernameFieldWithValidUsername()">
+                <span>When Input username field with valid username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.inputPasswordFieldWithValidPassword()">
+                <span>And Input password field with valid password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.clickTheLoginButton()">
+                <span>And Click the login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.theTextIsVisibleInThePageHeader()">
+                <span>When The text Dashboard is visible in the page header</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Successfully logged out</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.clickTheProfile()">
+                <span>When Click the profile</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.clickTheLogoutbutton()">
+                <span>And Click the logoutbutton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.loginStep.theTextLoginIsVisibleInTheLoginPage()">
+                <span>Then The text login is visible in the login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">My Info</p>
+            <p class="text-sm">
+              <span>6:36:28 AM</span> / <span>00:00:43:284</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">My Info</h5>
+<span class='badge badge-success'>12.20.2023 6:36:28 AM</span>
+<span class='badge badge-danger'>12.20.2023 6:37:11 AM</span>
+<span class='badge badge-default'>00:00:43:284</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Successfuly update personal details</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.alreadyLogin()">
+                <span>Given Already login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.clickTheMyInfoModule()">
+                <span>When Click the my info module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.clickPersonalDetailsTab()">
+                <span>And Click personal details tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputEmployeeFullnameField()">
+                <span>And Input employee fullname field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputNicknameField()">
+                <span>And Input nickname field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputEmployeeIdField()">
+                <span>And Input employee id field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputOtherIdField()">
+                <span>And Input other id field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputDriverSLicenseNumberField()">
+                <span>And Input driver's license number field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputLicenseExpiryDateField()">
+                <span>And Input license expiry date field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputSsnNumberField()">
+                <span>And Input ssn number field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputSinNumberField()">
+                <span>And Input sin number field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.chooseNationalityDropdown()">
+                <span>And Choose nationality dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.chooseMaritalStatusDropdown()">
+                <span>And Choose marital status dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputDateOfBirthField()">
+                <span>And Input date of birth field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.chooseGenderRadioButton()">
+                <span>And Choose gender radio button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputMilitaryServiceField()">
+                <span>And Input military service field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.chooseSmokerOrNot()">
+                <span>And Choose smoker or not</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.clickTheSaveButtonForPersonalDetails()">
+                <span>And Click the save button for personal details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.successMessageIsDisplayedForUpdatePersonalDetails()">
+                <span>Then Success message is displayed for update personal details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Successfuly update Contact details</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.myInfoStep.clickContactDetailsTab()">
+                <span>When Click contact details tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputStreetOneField()">
+                <span>And Input street one field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputStreetTwoField()">
+                <span>And Input street two field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputCityField()">
+                <span>And Input city field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputStateField()">
+                <span>And Input State field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputZipField()">
+                <span>And Input zip field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.chooseCountryDropdown()">
+                <span>And Choose country dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputHomeField()">
+                <span>And Input home field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputMobileField()">
+                <span>And Input mobile field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputWorkField()">
+                <span>And Input work field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputWorkEmailField()">
+                <span>And Input work email field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.inputOtherEmailField()">
+                <span>And Input other email field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.clickTheSaveButtonForContactDetails()">
+                <span>And Click the save button for contact details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.myInfoStep.successMessageIsDisplayedForUpdateContactDetails()">
+                <span>Then Success message is displayed for update contact details</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Leave</p>
+            <p class="text-sm">
+              <span>6:37:11 AM</span> / <span>00:00:27:965</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Leave</h5>
+<span class='badge badge-success'>12.20.2023 6:37:11 AM</span>
+<span class='badge badge-danger'>12.20.2023 6:37:39 AM</span>
+<span class='badge badge-default'>00:00:27:965</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>Successfully add entitlements multiple employeee</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.alreadyLogin()">
+                <span>Given Already login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickTheLeaveButton()">
+                <span>When Click the leave button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickEntitlementsInTopbarMenu()">
+                <span>And Click entitlements in topbar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickAddEntitlementsInMenuItem()">
+                <span>And Click add entitlements in menu item</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.chooseAddToRadiobutton()">
+                <span>And Choose add to radiobutton in add entitlements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.chooseLeaveTypeDropdown()">
+                <span>And Choose leave type dropdown in add entitlements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.inputEntitlementField()">
+                <span>And Input entitlement field in add entitlements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickTheSaveButtonForEntitlement()">
+                <span>And Click the save button for entitlement</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickTheConfirmButtonForEntitlement()">
+                <span>And Click the confirm button for entitlement</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.successMessageIsDisplayedForAddEntitlementsMultipleEmployeee()">
+                <span>And Success message is displayed for add entitlements multiple employeee</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="70"><span class="badge log pass-bg mr-2">Pass</span>Successfully apply leave 1 day</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.leaveStep.clickapplyInTopbarMenu()">
+                <span>When Click apply in topbar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.chooseLeaveTypeDropdownInApplyLeave()">
+                <span>And Choose leave type dropdown in apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.inputFromDateFieldInApplyLeave()">
+                <span>And Input from date field in apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.inputToDateFieldInApplyLeave()">
+                <span>And Input to date field in apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.chooseDurationDropdownInApplyLeave()">
+                <span>And Choose duration dropdown in apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.inputCommentFieldInApplyLeave()">
+                <span>And Input Comment field in apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickTheSaveButtonForApplyLeave()">
+                <span>And Click the save button for apply leave</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.successMessageIsDisplayedApplyLeaveDay()">
+                <span>Then Success message is displayed apply leave one day</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>Successfully cancel apply leave</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.leaveStep.clickMyLeaveInTopbarMenu()">
+                <span>When Click my leave in topbar menu</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.clickTheCancelButton()">
+                <span>And Click the cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.leaveStep.successMessageIsDisplayedCancelApplyLeave()">
+                <span>Then Success message is displayed cancel apply leave</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="83"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">PIM</p>
+            <p class="text-sm">
+              <span>6:37:39 AM</span> / <span>00:00:30:089</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PIM</h5>
+<span class='badge badge-success'>12.20.2023 6:37:39 AM</span>
+<span class='badge badge-danger'>12.20.2023 6:38:09 AM</span>
+<span class='badge badge-default'>00:00:30:089</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=83</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="84"><span class="badge log pass-bg mr-2">Pass</span>Successfully add employee</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.loginStep.alreadyLogin()">
+                <span>Given Already login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.clickThePIMModule()">
+                <span>When Click the PIM module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.clickAddEmployeeTab()">
+                <span>And Click add employee tab</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.inputNewEmployeeFullnameField()">
+                <span>And Input new employee fullname field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.inputNewEmployeeId()">
+                <span>And Input new Employee id</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.clickTheSaveButtonForAddEmployee()">
+                <span>And Click the save button for add employee</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.successMessageIsDisplayedForAddEmployee()">
+                <span>Then Success message is displayed for add employee</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>Successfully input job title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step.PIMStep.clickJobTabInEmployeeList()">
+                <span>Given Click job tab in employee list</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.inputJoinDateField()">
+                <span>When Input join date field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.chooseJobTitleDropdown()">
+                <span>And Choose job title dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.chooseJobCategoryDropdown()">
+                <span>And Choose job category dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.chooseSubUnitDropdown()">
+                <span>And Choose sub unit dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.chooseLocationDropdown()">
+                <span>And Choose location dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.chooseEmploymentStatusDropdown()">
+                <span>And Choose employment status dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.clickTheSaveButtonForJobDetail()">
+                <span>And Click the save button for job detail</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step.PIMStep.successMessageIsDisplayedForJobDetail()">
+                <span>Then Success message is displayed for job detail</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">15</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@MyInfo</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MyInfo</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='23'>Successfuly update personal details</a>
+<div class="">
+<span class="badge badge-default">My Info.Successfuly update personal details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='43'>Successfuly update Contact details</a>
+<div class="">
+<span class="badge badge-default">My Info.Successfuly update Contact details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LEAVE01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LEAVE01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='59'>Successfully add entitlements multiple employeee</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully add entitlements multiple employeee</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@MYINFO01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MYINFO01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='23'>Successfuly update personal details</a>
+<div class="">
+<span class="badge badge-default">My Info.Successfuly update personal details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@Login</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Login</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:35:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Ensure the error message is displayed when username and password invalid</a>
+<div class="">
+<span class="badge badge-default">Login.Ensure the error message is displayed when username and password invalid</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>Ensure the error message is displayed when username and password empty</a>
+<div class="">
+<span class="badge badge-default">Login.Ensure the error message is displayed when username and password empty</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Successfully logged in using valid account</a>
+<div class="">
+<span class="badge badge-default">Login.Successfully logged in using valid account</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Successfully logged out</a>
+<div class="">
+<span class="badge badge-default">Login.Successfully logged out</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LOGIN04</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LOGIN04</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Successfully logged out</a>
+<div class="">
+<span class="badge badge-default">Login.Successfully logged out</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PIM01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PIM01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='83' id='84'>Successfully add employee</a>
+<div class="">
+<span class="badge badge-default">PIM.Successfully add employee</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LOGIN03</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LOGIN03</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Successfully logged in using valid account</a>
+<div class="">
+<span class="badge badge-default">Login.Successfully logged in using valid account</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LEAVE03</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LEAVE03</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='79'>Successfully cancel apply leave</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully cancel apply leave</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@PIM</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PIM</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='83' id='84'>Successfully add employee</a>
+<div class="">
+<span class="badge badge-default">PIM.Successfully add employee</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='83' id='92'>Successfully input job title</a>
+<div class="">
+<span class="badge badge-default">PIM.Successfully input job title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@Leave</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Leave</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='59'>Successfully add entitlements multiple employeee</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully add entitlements multiple employeee</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='70'>Successfully apply leave 1 day</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully apply leave 1 day</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='79'>Successfully cancel apply leave</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully cancel apply leave</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@MYINFO02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MYINFO02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='43'>Successfuly update Contact details</a>
+<div class="">
+<span class="badge badge-default">My Info.Successfuly update Contact details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LOGIN02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LOGIN02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:36:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>Ensure the error message is displayed when username and password empty</a>
+<div class="">
+<span class="badge badge-default">Login.Ensure the error message is displayed when username and password empty</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@PIM02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@PIM02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='83' id='92'>Successfully input job title</a>
+<div class="">
+<span class="badge badge-default">PIM.Successfully input job title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LEAVE02</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LEAVE02</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:37:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='58' id='70'>Successfully apply leave 1 day</a>
+<div class="">
+<span class="badge badge-default">Leave.Successfully apply leave 1 day</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LOGIN01</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LOGIN01</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>06:35:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Ensure the error message is displayed when username and password invalid</a>
+<div class="">
+<span class="badge badge-default">Login.Ensure the error message is displayed when username and password invalid</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 20, 2023 06:35:53 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 20, 2023 06:38:09 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>11</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>86</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login":34.444,"My Info":43.284,"Leave":27.965,"PIM":30.089
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@MyInfo</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LEAVE01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MYINFO01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Login</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LOGIN04</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PIM01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LOGIN03</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LEAVE03</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PIM</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Leave</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MYINFO02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LOGIN02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@PIM02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LEAVE02</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LOGIN01</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 11,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 86,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
